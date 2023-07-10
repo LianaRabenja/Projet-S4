@@ -1,12 +1,14 @@
 .radio-center{
-    margin-top: 400px;
-    background-color: rgb(16, 13, 13);
+    margin-top: 200px;
+    background-color:#0d1414;
     color: white;
-    border-radius: 5px;
-    width: 300px;
-    height: 200px;
+    border-color: white;
+    margin-left: 400px;
+    border-radius: 12px;
+    width: 500px;
+    height: 400px;
+    text-align: center;
 }
-.centrer{
-    width: 300px;
-    height: 200px;
+p{
+    margin-top: 15px;
 }
