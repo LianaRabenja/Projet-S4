@@ -1,0 +1,19 @@
+.radio-center{
+    margin-top: 200px;
+    background-color:#0d1414;
+    color: white;
+    border-color: white;
+    margin-left: 400px;
+    border-radius: 12px;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+}
+p{
+    margin-top: 15px;
+}
+.chart{
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+}
