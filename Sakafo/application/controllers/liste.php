@@ -20,6 +20,15 @@ class liste extends CI_Controller {
 	 */
 	public function liste()
 	{
-		$this->load->view('Liste');
+		$this->load->view('Headerback');
+		$this->load->view('liste');
+	}
+	public function insert(){
+		$this->load->view('Headerback');
+		$this->load->view('insertion');
+	}
+	public function stat(){
+		$this->load->view('Headerback');
+		$this->load->view('statistique');
 	}
 }

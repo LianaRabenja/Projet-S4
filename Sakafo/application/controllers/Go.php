@@ -20,6 +20,14 @@ class Go extends CI_Controller {
 	 */
 	public function Go()
 	{
-		$this->load->view('Commencer');
+		$this->load->view('HeaderFront');
+		$this->load->view('InfoUser');
+	}
+	public function Suggest()
+	{
+		$this->load->view('suggestion');
+	}
+	public function commencer(){
+		$this->load->view('InfoUser');
 	}
 }

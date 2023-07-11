@@ -23,13 +23,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="#home">Home</a>
+                <a class="nav-link" href="<?php echo base_url("index.php/Welcome/index")?>">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#about">Suggestion</a>
+                <a class="nav-link" href="<?php echo base_url("index.php/Go/Suggest")?>">Suggestion</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url("index.php/Go/Go")?>">Commencer</a>
+                <a class="nav-link" href="<?php echo base_url("index.php/Go/commencer")?>">Commencer</a>
             </li>
         </ul>
         <a class="navbar-brand m-auto" href="#">
@@ -43,7 +43,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             
         
             <li class="nav-item">
-                <a href="components.html" class="btn btn-primary ml-xl-4">Deconnexio</a>
+                <a href="components.html" class="btn btn-primary ml-xl-4">Deconnexion</a>
             </li>
         </ul>
     </div>
